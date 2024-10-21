@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Redirigir /registro a index.php
+RewriteRule ^registro$ index.php [L]
+
+# Redirigir /procesar a procesar_registro.php
+RewriteRule ^procesar$ procesar_registro.php [L]
+
+# Redirigir cualquier otra URL a index.php (opcional)
+# RewriteRule ^.*$ index.php [L]
